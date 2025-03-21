@@ -1,5 +1,6 @@
 // sort the array in ascending order
 // requirements :- don't use sort method
+
 // easiest method => arr.sort((a , b) => a - b); // but we can't use this method.  
 
 // we will use the bubble sort approach
@@ -15,6 +16,6 @@ function bubbleSort(arr){
         }
     }
     return arr; 
-}
+}     
 
 console.log(bubbleSort([3,20, 30 , 100 , 69]))
