@@ -1,7 +1,7 @@
 // sort the array in ascending order
 // requirements :- don't use sort method
 
-// one method is to pass arr in the new array and sort it which is the simplist step. I am using logical approach here
+// easiest method => arr.sort((a , b) => a - b); // but we can't use this method.  
 
 // we will use the bubble sort approach
 
@@ -16,6 +16,6 @@ function bubbleSort(arr){
         }
     }
     return arr; 
-}
+}     
 
 console.log(bubbleSort([3,20, 30 , 100 , 69]))
